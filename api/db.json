@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Book Title",
+    "subtitle": "Book Subtitle",
+    "author": "Author",
+    "creator": [{ "role": "author", "text": "Book Author" }],
+    "date": "2018-08-22T01:47:08-04:00",
+    "modified": "2018-08-22T01:47:08-04:00",
+    "identifier": {
+      "scheme": "URN",
+      "text": "4ac0caeb-470d-4c78-8e88-b6a4933ac975"
+    },
+    "language": "en",
+    "type": "Education",
+    "publisher": "Book Publisher",
+    "coverImage": {
+      "src": "images/cover.jpg",
+      "alt": "cover image"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "title": "First Page",
+      "manifest": {
+        "id": "page001",
+        "href": "xhtml/page001.xhtml",
+        "media-type": "application/xhtml+xml",
+        "properties": ["svg"]
+      },
+      "spine": {
+        "idref": "page001",
+        "linear": true
+      }
+    }
+  ],
+  "toc": [
+    {
+      "id": 1,
+      "title": "First Section",
+      "pageReference": 1,
+      "contentReference": "#first-section"
+    }
+  ]
+}
